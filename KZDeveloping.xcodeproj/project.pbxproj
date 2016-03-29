@@ -21,6 +21,8 @@
 		D46F59561CA0D6E100688878 /* KZDevelopingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F59551CA0D6E100688878 /* KZDevelopingTests.swift */; };
 		D46F59611CA0D6E200688878 /* KZDevelopingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F59601CA0D6E200688878 /* KZDevelopingUITests.swift */; };
 		D49794821CA245E3003999E3 /* JSONFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49794811CA245E3003999E3 /* JSONFileReader.swift */; };
+		D4FCFE7E1CAA582B00C5295A /* KZAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCFE7B1CAA582B00C5295A /* KZAppConfig.swift */; };
+		D4FCFE7F1CAA582B00C5295A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCFE7D1CAA582B00C5295A /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		D46F59601CA0D6E200688878 /* KZDevelopingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZDevelopingUITests.swift; sourceTree = "<group>"; };
 		D46F59621CA0D6E200688878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D49794811CA245E3003999E3 /* JSONFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFileReader.swift; sourceTree = "<group>"; };
+		D4FCFE7B1CAA582B00C5295A /* KZAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KZAppConfig.swift; sourceTree = "<group>"; };
+		D4FCFE7D1CAA582B00C5295A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		E303F064B1D5A7922544BC5F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,6 +185,7 @@
 				D42032AA1CA4CC2700D0203C /* KZNetwork */,
 				D42032A51CA3CC2200D0203C /* KZModels */,
 				D42032B71CA4CEB400D0203C /* KZModules */,
+				D4FCFE791CAA582B00C5295A /* Other */,
 				D49794811CA245E3003999E3 /* JSONFileReader.swift */,
 				D46F59441CA0D6E100688878 /* Main.storyboard */,
 				D46F59491CA0D6E100688878 /* LaunchScreen.storyboard */,
@@ -205,6 +210,31 @@
 				D46F59621CA0D6E200688878 /* Info.plist */,
 			);
 			path = KZDevelopingUITests;
+			sourceTree = "<group>";
+		};
+		D4FCFE791CAA582B00C5295A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D4FCFE7A1CAA582B00C5295A /* Config */,
+				D4FCFE7C1CAA582B00C5295A /* Extension */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D4FCFE7A1CAA582B00C5295A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D4FCFE7B1CAA582B00C5295A /* KZAppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D4FCFE7C1CAA582B00C5295A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D4FCFE7D1CAA582B00C5295A /* UIViewExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		E1131BC220EEC771D86FF01A /* Frameworks */ = {
@@ -398,11 +428,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FCFE7E1CAA582B00C5295A /* KZAppConfig.swift in Sources */,
 				D46F59411CA0D6E100688878 /* AppDelegate.swift in Sources */,
 				D42032B91CA4CEC400D0203C /* ViewController.swift in Sources */,
 				D42032A71CA3CECD00D0203C /* KZModel.swift in Sources */,
 				D49794821CA245E3003999E3 /* JSONFileReader.swift in Sources */,
 				D42032B21CA4CC7200D0203C /* XAppToken.swift in Sources */,
+				D4FCFE7F1CAA582B00C5295A /* UIViewExtension.swift in Sources */,
 				D42032AC1CA4CC3D00D0203C /* KZNetwork.swift in Sources */,
 				D42032B01CA4CC7200D0203C /* KZRequestAPI.swift in Sources */,
 			);
