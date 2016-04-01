@@ -23,6 +23,7 @@
 		D49794821CA245E3003999E3 /* JSONFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49794811CA245E3003999E3 /* JSONFileReader.swift */; };
 		D4FCFE7E1CAA582B00C5295A /* KZAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCFE7B1CAA582B00C5295A /* KZAppConfig.swift */; };
 		D4FCFE7F1CAA582B00C5295A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCFE7D1CAA582B00C5295A /* UIViewExtension.swift */; };
+		D4FCFE891CAA729800C5295A /* KZAppDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCFE881CAA729800C5295A /* KZAppDefine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		D49794811CA245E3003999E3 /* JSONFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFileReader.swift; sourceTree = "<group>"; };
 		D4FCFE7B1CAA582B00C5295A /* KZAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KZAppConfig.swift; sourceTree = "<group>"; };
 		D4FCFE7D1CAA582B00C5295A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		D4FCFE881CAA729800C5295A /* KZAppDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KZAppDefine.swift; sourceTree = "<group>"; };
 		E303F064B1D5A7922544BC5F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				D4FCFE7B1CAA582B00C5295A /* KZAppConfig.swift */,
+				D4FCFE881CAA729800C5295A /* KZAppDefine.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				D49794821CA245E3003999E3 /* JSONFileReader.swift in Sources */,
 				D42032B21CA4CC7200D0203C /* XAppToken.swift in Sources */,
 				D4FCFE7F1CAA582B00C5295A /* UIViewExtension.swift in Sources */,
+				D4FCFE891CAA729800C5295A /* KZAppDefine.swift in Sources */,
 				D42032AC1CA4CC3D00D0203C /* KZNetwork.swift in Sources */,
 				D42032B01CA4CC7200D0203C /* KZRequestAPI.swift in Sources */,
 			);
