@@ -22,8 +22,9 @@ enum RequestCode: String {
 }
 
 class MoyaRequest {
+    // swift中单行单例方法
     static let sharedInstance = MoyaRequest()
-    private init(){}
+    private init() {}
     
     let requestProvider = RxMoyaProvider<RequestApi>()
     
