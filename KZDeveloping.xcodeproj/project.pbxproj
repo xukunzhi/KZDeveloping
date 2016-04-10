@@ -21,6 +21,11 @@
 		D46F59561CA0D6E100688878 /* KZDevelopingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F59551CA0D6E100688878 /* KZDevelopingTests.swift */; };
 		D46F59611CA0D6E200688878 /* KZDevelopingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F59601CA0D6E200688878 /* KZDevelopingUITests.swift */; };
 		D49794821CA245E3003999E3 /* JSONFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49794811CA245E3003999E3 /* JSONFileReader.swift */; };
+		D4E17E681CBA17A600FC6E45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E17E671CBA17A600FC6E45 /* LoginViewController.swift */; };
+		D4E17E6A1CBA17C200FC6E45 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E17E691CBA17C200FC6E45 /* LoginModel.swift */; };
+		D4E17E6C1CBA17DF00FC6E45 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E17E6B1CBA17DF00FC6E45 /* LoginViewModel.swift */; };
+		D4E17E6F1CBA6CEA00FC6E45 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E17E6E1CBA6CEA00FC6E45 /* SignupViewController.swift */; };
+		D4E17E711CBA6D0600FC6E45 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E17E701CBA6D0600FC6E45 /* SignupViewModel.swift */; };
 		D4FCFE7E1CAA582B00C5295A /* KZAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCFE7B1CAA582B00C5295A /* KZAppConfig.swift */; };
 		D4FCFE7F1CAA582B00C5295A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCFE7D1CAA582B00C5295A /* UIViewExtension.swift */; };
 		D4FCFE891CAA729800C5295A /* KZAppDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCFE881CAA729800C5295A /* KZAppDefine.swift */; };
@@ -65,6 +70,11 @@
 		D46F59601CA0D6E200688878 /* KZDevelopingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZDevelopingUITests.swift; sourceTree = "<group>"; };
 		D46F59621CA0D6E200688878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D49794811CA245E3003999E3 /* JSONFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFileReader.swift; sourceTree = "<group>"; };
+		D4E17E671CBA17A600FC6E45 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D4E17E691CBA17C200FC6E45 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		D4E17E6B1CBA17DF00FC6E45 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D4E17E6E1CBA6CEA00FC6E45 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D4E17E701CBA6D0600FC6E45 /* SignupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 		D4FCFE7B1CAA582B00C5295A /* KZAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KZAppConfig.swift; sourceTree = "<group>"; };
 		D4FCFE7D1CAA582B00C5295A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		D4FCFE881CAA729800C5295A /* KZAppDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KZAppDefine.swift; sourceTree = "<group>"; };
@@ -136,25 +146,13 @@
 		D42032BA1CA4D12000D0203C /* LoginModule */ = {
 			isa = PBXGroup;
 			children = (
-				D42032BB1CA4D14A00D0203C /* ViewControllers */,
-				D42032BC1CA4D1E200D0203C /* Views */,
+				D4E17E651CBA177A00FC6E45 /* ViewControllers */,
+				D4E17E661CBA179400FC6E45 /* Views */,
+				D4E17E641CBA174600FC6E45 /* Models */,
+				D4E17E631CBA170600FC6E45 /* ViewModels */,
 				D42032BD1CA4D24300D0203C /* LoginModule.storyboard */,
 			);
 			path = LoginModule;
-			sourceTree = "<group>";
-		};
-		D42032BB1CA4D14A00D0203C /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		D42032BC1CA4D1E200D0203C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		D46F59341CA0D6E100688878 = {
@@ -212,6 +210,39 @@
 				D46F59621CA0D6E200688878 /* Info.plist */,
 			);
 			path = KZDevelopingUITests;
+			sourceTree = "<group>";
+		};
+		D4E17E631CBA170600FC6E45 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D4E17E701CBA6D0600FC6E45 /* SignupViewModel.swift */,
+				D4E17E6B1CBA17DF00FC6E45 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D4E17E641CBA174600FC6E45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4E17E691CBA17C200FC6E45 /* LoginModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4E17E651CBA177A00FC6E45 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4E17E6E1CBA6CEA00FC6E45 /* SignupViewController.swift */,
+				D4E17E671CBA17A600FC6E45 /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D4E17E661CBA179400FC6E45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D4FCFE791CAA582B00C5295A /* Other */ = {
@@ -432,15 +463,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4FCFE7E1CAA582B00C5295A /* KZAppConfig.swift in Sources */,
+				D4E17E6A1CBA17C200FC6E45 /* LoginModel.swift in Sources */,
 				D46F59411CA0D6E100688878 /* AppDelegate.swift in Sources */,
 				D42032B91CA4CEC400D0203C /* ViewController.swift in Sources */,
 				D42032A71CA3CECD00D0203C /* KZModel.swift in Sources */,
 				D49794821CA245E3003999E3 /* JSONFileReader.swift in Sources */,
+				D4E17E711CBA6D0600FC6E45 /* SignupViewModel.swift in Sources */,
 				D42032B21CA4CC7200D0203C /* XAppToken.swift in Sources */,
 				D4FCFE7F1CAA582B00C5295A /* UIViewExtension.swift in Sources */,
+				D4E17E6F1CBA6CEA00FC6E45 /* SignupViewController.swift in Sources */,
+				D4E17E6C1CBA17DF00FC6E45 /* LoginViewModel.swift in Sources */,
 				D4FCFE891CAA729800C5295A /* KZAppDefine.swift in Sources */,
 				D42032AC1CA4CC3D00D0203C /* KZNetwork.swift in Sources */,
 				D42032B01CA4CC7200D0203C /* KZRequestAPI.swift in Sources */,
+				D4E17E681CBA17A600FC6E45 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
