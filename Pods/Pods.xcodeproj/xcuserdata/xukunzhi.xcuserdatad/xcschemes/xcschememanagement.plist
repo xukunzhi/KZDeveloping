@@ -14,12 +14,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Moya.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KZDeveloping.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,7 +44,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RxBlocking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,12 +72,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1BDD53123EC6837C95487936C6F774D0</key>
+		<key>1B59BCE85CE7B86F3CBCE28153E936F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F82564D80FA3DA8D2BAA2DF5A135F42</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F3386D7FDC8CC9DD0CD670A3D47CF65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8E05FD4868BD166A067D069492DA7A16</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,17 +107,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>B849FC173770E6F9EAB9EEDAB3C16FB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C5CBCAA97E951CC882334464FBDF983D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DFB1A2626936AD5F32A072054B6808A5</key>
+		<key>E5678FC69B99077E1972D149186B2285</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E5678FC69B99077E1972D149186B2285</key>
+		<key>EBDBDC25E854EFF8BBCF02897551BA43</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F91226101ECE8FCFD221A3EC54481F82</key>
 		<dict>
 			<key>primary</key>
 			<true/>
